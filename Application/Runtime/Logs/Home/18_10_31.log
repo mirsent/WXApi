@@ -1,0 +1,145 @@
+[ 2018-10-31T11:17:28+08:00 ] 127.0.0.1 /Wx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2018-10-31T11:24:28+08:00 ] 127.0.0.1 /Wx/Home/DingSheng/get_company_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+
+[ 2018-10-31T11:24:37+08:00 ] 127.0.0.1 /Wx/Home/DingSheng/get_company_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-10-31T11:24:41+08:00 ] 127.0.0.1 /Wx/Home/DingSheng/get_company_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+
+[ 2018-10-31T14:08:17+08:00 ] 127.0.0.1 /wx/Home/DingSheng/get_pro_banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+ERR: 1146:Table 'dsdb.pro_banenr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pro_banenr`
+ERR: 1146:Table 'dsdb.pro_banenr' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `pro_banenr` WHERE `status` = 1 ORDER BY turn 
+
+[ 2018-10-31T14:08:40+08:00 ] 127.0.0.1 /wx/Home/DingSheng/get_pro_banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+ERR: 1146:Table 'dingsheng.pro_banenr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pro_banenr`
+ERR: 1146:Table 'dingsheng.pro_banenr' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `pro_banenr` WHERE `status` = 1 ORDER BY turn 
+
+[ 2018-10-31T14:08:43+08:00 ] 127.0.0.1 /wx/Home/DingSheng/get_pro_banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+ERR: 1146:Table 'dingsheng.pro_banenr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pro_banenr`
+ERR: 1146:Table 'dingsheng.pro_banenr' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `pro_banenr` WHERE `status` = 1 ORDER BY turn 
+
+[ 2018-10-31T14:08:54+08:00 ] 127.0.0.1 /wx/Home/DingSheng/get_pro_banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+ERR: 1146:Table 'dingsheng.pro_banenr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pro_banenr`
+ERR: 1146:Table 'dingsheng.pro_banenr' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `pro_banenr` WHERE `status` = 1 ORDER BY turn 
+
+[ 2018-10-31T14:08:55+08:00 ] 127.0.0.1 /wx/Home/DingSheng/get_pro_banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+ERR: 1146:Table 'dingsheng.pro_banenr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pro_banenr`
+ERR: 1146:Table 'dingsheng.pro_banenr' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `pro_banenr` WHERE `status` = 1 ORDER BY turn 
+
+[ 2018-10-31T14:08:58+08:00 ] 127.0.0.1 /wx/Home/DingSheng/get_pro_banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+
+[ 2018-10-31T14:09:23+08:00 ] 127.0.0.1 /wx/Home/DingSheng/get_pro_banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+ERR: 1146:Table 'dingsheng.pro_banenr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pro_banenr`
+ERR: 1146:Table 'dingsheng.pro_banenr' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `pro_banenr` WHERE `status` = 1 
+
+[ 2018-10-31T14:09:33+08:00 ] 127.0.0.1 /wx/Home/DingSheng/get_pro_banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+ERR: 1146:Table 'dingsheng.pro_banenr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pro_banenr`
+ERR: 1146:Table 'dingsheng.pro_banenr' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `pro_banenr` WHERE `status` = 1 
+
+[ 2018-10-31T14:27:46+08:00 ] 127.0.0.1 /wx/Home/DingSheng/get_pro_banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+
