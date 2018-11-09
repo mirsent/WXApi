@@ -6,14 +6,23 @@ return array(
     'STATUS_Y' => 1, // 正常状态
     'STATUS_B' => 2, // 禁用状态
 
-    /*微信支付正式参数*/
-    'WX_DS_CONFIG' => array(
-        'APPID'      => 'wxc4979c48c7688375', // 微信支付APPID
-        'APPSECRET'  => '7ae96678b1d9d9dde23b6514d95b749e', // secert
+    /*微信支付参数*/
+    'WX_TEST_CONFIG' => array(
+        'APPID'      => 'wx4af7990f8faed2af', // 微信支付APPID
+        'APPSECRET'  => 'bf678846c87c828fe51f008ffd716baa', // secert
         'MCHID'      => '', // 微信支付MCHID 商户收款账号
         'KEY'        => '',  // 微信支付KEY
         'NOTIFY_URL' => '', // 接收支付状态的连接
         'money'      => 1 // 支付金额
+    ),
+
+    'WX_DS_CONFIG' => array(
+        'APPID'      => 'wxc4979c48c7688375',
+        'APPSECRET'  => '7ae96678b1d9d9dde23b6514d95b749e',
+        'MCHID'      => '',
+        'KEY'        => '',
+        'NOTIFY_URL' => '',
+        'money'      => 1
     ),
 
     /*漫画状态*/

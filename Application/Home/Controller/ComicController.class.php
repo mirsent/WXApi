@@ -4,6 +4,38 @@ use Think\Controller;
 class ComicController extends Controller {
 
     /**
+     * 登录凭证校验
+     */
+    public function code_2_session()
+    {
+        $appid = C('WX_TEST_CONFIG.APPID');
+        $secret = C('WX_TEST_CONFIG.APPSECRET');
+        $url = 'https://api.weixin.qq.com/sns/jscode2session?appid='.$appid.'&secret='.$secret.'&js_code='.I('js_code').'&grant_type=authorization_code';
+        $info = file_get_contents($url);
+        $json = json_decode($info, true);
+
+        ajax_return(1, '凭证校验', $json);
+    }
+
+    /**
+     * 获取漫画类型
+     */
+    public function get_comic_type()
+    {
+        $all[] = [
+            'id'              => '-1',
+            'comic_type_name' => '全部',
+            'is_on'           => true
+        ];
+        $cond['status'] = C('STATUS_Y');
+        $data = M('comic_type','','DB_COMIC')
+            ->where($cond)
+            ->field('*,null as is_on')
+            ->select();
+        ajax_return(1, '漫画类型', array_merge($all, $data));
+    }
+
+    /**
      * 获取漫画banner
      */
     public function get_comic_banner(){
@@ -20,6 +52,12 @@ class ComicController extends Controller {
      */
     public function get_comic_list(){
         $cond['c.status'] = C('C_STATUS_U');
+
+        $type = I('type');
+        if ($type != '-1') {
+            $cond['_string'] = 'FIND_IN_SET('.$type.', type_ids)';
+        }
+
         $data = M('comics','','DB_COMIC')
             ->alias('c')
             ->join(C('DB_COMIC_NAME').'.release_type rt ON rt.id = c.release_type_id')
